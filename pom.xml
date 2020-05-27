@@ -78,6 +78,19 @@
     <version>5.2.6.RELEASE</version>
 	</dependency>
 	
+	<dependency>
+    	<groupId>org.hibernate.validator</groupId>
+    	<artifactId>hibernate-validator-annotation-processor</artifactId>
+    	<version>6.1.5.Final</version>
+	</dependency>
+	
+	<dependency>
+    	<groupId>org.hibernate.validator</groupId>
+    	<artifactId>hibernate-validator</artifactId>
+    	<version>6.0.2.Final</version>
+	</dependency>
+	
+	
 	<!-- Adding mysql connector -->
 	
 	<dependency>

@@ -21,17 +21,21 @@
 						<tbody>
 							<tr>
 								<td><label>First Name</label></td>
-								<td><form:input path="firstName" /></td>
+								<td><form:input path="firstName" />
+								<form:errors path="firstName" /></td>
+								
 							</tr>
 
 							<tr>
 								<td><label>Last Name</label></td>
-								<td><form:input path="lastName" /></td>
+								<td><form:input path="lastName" />
+								<form:errors path="lastName" /></td>
 							</tr>
 
 							<tr>
 								<td><label>Email</label></td>
-								<td><form:input path="email" /></td>
+								<td><form:input path="email" />
+								<form:errors path="email" /></td>
 							</tr>
 
 							<tr>
